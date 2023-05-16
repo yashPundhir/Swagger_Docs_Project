@@ -1,0 +1,14 @@
+openapi: 3.0.1
+info:
+  title: Learn Express & Swagger
+  description: A course segment about writing docs
+  version: 1.1.0
+  contact:
+    email: yash.pundhir.prof@gmail.com
+    url: "https://yash-pundhir-portfolio-sj.netlify.app/"
+
+servers:
+  - url: "http://localhost:4000/api/v1"
+    description: Local Host Version of the app - Regular
+  - url: "https://localhost:4000/api/v1"
+    description: Local Host Version of the app - Secure
